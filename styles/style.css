@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Shared Styles */
+header,
+section {
+  max-width: 1280px;
+  margin: 0px auto;
+}
+
+.section {
+  margin-top: 100px;
+}
+.icon,
+svg {
+  width: 19px;
+  font-weight: 600;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 41px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  background: rgb(224, 44, 109);
+  padding: 10px 10px;
+  border: 2px solid rgb(224, 44, 109);
+}
+
+.text {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Header Section */
+nav,
+ul {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  padding: 30px 0;
+  color: rgb(58, 58, 58);
+}
+
+nav {
+  justify-content: space-between;
+}
+
+ul {
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(58, 58, 58);
+  font-weight: 600;
+}
+a:hover {
+  color: rgb(224, 44, 109);
+}
+
+li {
+  list-style: none;
+}
+
+ul > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+hr {
+  border: none;
+  height: 2px; 
+  background: linear-gradient(
+    135deg,
+    rgba(192, 204, 218, 0.1) 0%,
+    rgba(192, 204, 218, 0.6) 50.378%,
+    rgba(192, 204, 218, 0.1) 100%
+  );
+  margin: 0 auto;
+}
+
+
+/* Hero part */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+  }
+  
+  .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .left > h1 {
+    font-size: 3.2rem;
+  }
+  
+  .right {
+    background-image: url("../images/bg.svg");
+    background-size: calc(100% - 40px) calc(100% - 40px);
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+  }
+
+  /* Company Tang */
+.tag{
+    margin-top: 60px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.tag > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.tag div img{
+    width: 90px;
+}
+  
